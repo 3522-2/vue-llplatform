@@ -1,7 +1,7 @@
 import Mock from 'mockjs'
 
 export default {
-  mockData () {
+  mockData() {
     const BASE_PATH = process.env.BASE_URL.endsWith('/')
       ? process.env.BASE_URL.substr(0, process.env.BASE_URL.length - 1)
       : process.env.BASE_URL
@@ -10,7 +10,7 @@ export default {
       'token': 'fdsjfhjkdshfkldsajfjasdfbjsdkfhsdajfj',
       'result': {
         'id': '100001',
-        'name': '林锦泽',
+        'name': '袁阳',
         'roles': ['admin']
       }
     })
@@ -20,7 +20,7 @@ export default {
     Mock.mock(BASE_PATH + '/api/user/info', {
       'code': 1,
       'id': '100001',
-      'name': '林锦泽',
+      'name': '袁阳',
       'roles': ['admin'],
       'permissions': [
         { name: 'index' },

@@ -82,7 +82,7 @@ export default {
   },
   about: {
     author: '作者',
-    authorName: '林锦泽',
+    authorName: '袁阳',
     mail: '邮箱',
     code: '源码地址',
     study: '教学步骤',

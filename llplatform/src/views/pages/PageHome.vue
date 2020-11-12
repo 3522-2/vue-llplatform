@@ -164,7 +164,7 @@ export default {
         weather: '深圳，26℃，多云'
       },
       user: {
-        name: '林锦泽',
+        name: '袁阳',
         loginTime: '2018-01-05 12:00:00',
         loginIp: '172.28.12.34',
         lastTime: '2018-01-01 12:00:00',
